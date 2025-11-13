@@ -3,7 +3,7 @@ from animals_species import Lion, Elephant, Bird, Snake
 
 def main_menu():
     zoo = Zoo()
-    # Добавим тестовых животных
+
     zoo.add_animal(Lion("Алекс", 10, "lion", 80))
     zoo.add_animal(Elephant("Бобо", 6, "elephant", 90))
     zoo.add_animal(Bird("Кеша", 2, "parrot", 70))
@@ -47,4 +47,5 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
 
